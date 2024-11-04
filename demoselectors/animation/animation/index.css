@@ -1,0 +1,36 @@
+.img1{
+    width: 100px;
+    height: 100px; 
+animation-name: rotateimage;
+animation-duration: 1s;
+animation-timing-function:linear;
+animation-iteration-count:90;
+    
+}
+@keyframes rotateimage{
+    0%{ 
+        transform: translateX(0px) rotate(0deg);
+         
+          } 
+    100%{
+        transform:translateX(100vw) rotate(720deg);
+    }
+}
+.img2{
+    width: 100px;
+    height: 100px; 
+animation-name: rotateimg2;
+animation-duration:1s;
+animation-timing-function:linear;
+animation-iteration-count: 90;
+    
+}
+@keyframes rotateimg2{
+    0%{ 
+        transform: translateY(0px) rotate(0deg);
+         
+          } 
+    100%{
+        transform:translateY(100vw) rotate(360deg);
+    }
+}
